@@ -1,5 +1,5 @@
 {
-  "name": "fx-event-bus",
+  "name": "wind-event-bus",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiahouwei/fx-event-bus.git"
+    "url": "git+https://github.com/xiahouwei/wind-event-bus.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiahouwei/fx-event-bus/issues"
+    "url": "https://github.com/xiahouwei/wind-event-bus/issues"
   },
-  "homepage": "https://github.com/xiahouwei/fx-event-bus#readme"
+  "homepage": "https://github.com/xiahouwei/wind-event-bus#readme"
 }
