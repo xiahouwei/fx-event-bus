@@ -3,7 +3,7 @@ class EventBus {
 		this.event = {}
 	}
 
-	on (name, context, callback) {
+	on = (name, context, callback) => {
 		const tuple = {
 			context,
 			callback
@@ -16,7 +16,7 @@ class EventBus {
 		}
 	}
 
-	remove (name, context) {
+	remove = (name, context) => {
 		const callbacks = this.event[name]
 		if (Array.isArray(callbacks)) {
 			this.event[name] = callbacks.filter(item => {
@@ -25,7 +25,7 @@ class EventBus {
 		}
 	}
 
-	emit (name, ...arg) {
+	emit = (name, ...arg) => {
 		const callbacks = this.event[name]
 		if (Array.isArray(callbacks)) {
 			callbacks.forEach(item => {
