@@ -29,6 +29,10 @@ $fxEventBus.on('test', this, this.testHandler)
 // 发布
 $fxEventBus.emit('test', true)
 
+// 取消订阅 只取消当前上下文中的订阅 this为page上下文
+$fxEventBus.remove('test', this)
+
+
 // 或者使用构造函数创建实例
 const $myEventBus = $fxCreateEventBus()
 
