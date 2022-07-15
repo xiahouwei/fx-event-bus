@@ -1,6 +1,6 @@
 {
   "name": "wind-eventbus-miniprogram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js实现 eventbus 用于微信小程序",
   "main": "./dist/eventbus.min.js",
   "scripts": {
