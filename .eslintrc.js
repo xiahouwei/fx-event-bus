@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
-        'standard'
-    ],
+		'standard'
+	],
 	env: {
 		browser: true,
 		es6: true
@@ -44,6 +44,6 @@ module.exports = {
 		// "no-extend-native" : 0,
 		// 不允许对null用==或者!=
 		'no-eq-null': 2,
-		'accessor-pairs': ["error", {}]
+		'accessor-pairs': ['error', {}]
 	}
 }

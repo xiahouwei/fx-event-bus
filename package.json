@@ -1,8 +1,9 @@
 {
   "name": "wind-eventbus-miniprogram",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "一个用于微信小程序的eventbus包, 非常的mini",
   "main": "eventbus.min.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "npm run lint && rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1",
